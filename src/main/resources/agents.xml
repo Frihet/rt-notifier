@@ -5,14 +5,14 @@
      - Add all your agents below. They will be loaded by the proper manager. -
      - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
-    <bean class="no.freecode.rtagent.xmpp.TicketQueryAgent">
+    <bean class="no.freecode.rtnotifier.xmpp.TicketQueryAgent">
         <property name="alias" value="QA RT agent" />
         <property name="chatRoom" value="test@conference.jabber.freecodeint.com" />
         <property name="query" value="Queue='fcnoos-div5' AND Owner='Nobody' AND (Status='new')" />
 <!--        <property name="query" value="Owner='Nobody' AND (Status='new')" />-->
 
         <property name="rules">
-            <bean class="no.freecode.rtagent.rt.CreatedDateRule">
+            <bean class="no.freecode.rtnotifier.rt.CreatedDateRule">
                 <property name="workdayBeginsAt" value="9" />
                 <property name="workdayEndsAt" value="16" />
                 <property name="maxAgeInHours" value="24" />

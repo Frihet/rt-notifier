@@ -1,16 +1,16 @@
 /**
  * Copyright: 2009 FreeCode AS
- * Project: rtagent
+ * Project: rtnotifier
  * Created: Jul 4, 2009
  *
  * This file is free software; you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published
  * by the Free Software Foundation; version 3.
  */
-package no.freecode.rtagent.xmpp;
+package no.freecode.rtnotifier.xmpp;
 
-import no.freecode.rtagent.Agent;
-import no.freecode.rtagent.Configuration;
+import no.freecode.rtnotifier.Agent;
+import no.freecode.rtnotifier.Configuration;
 
 import org.apache.log4j.Logger;
 import org.jivesoftware.smack.XMPPConnection;
@@ -74,7 +74,7 @@ public abstract class XmppChatAgent implements Agent {
     }
     
     /* (non-Javadoc)
-     * @see no.freecode.rtagent.Agent#sendMessage()
+     * @see no.freecode.rtnotifier.Agent#sendMessage()
      */
     public void sendMessage(String message) {
     	try {
@@ -86,7 +86,7 @@ public abstract class XmppChatAgent implements Agent {
     }
 
     /* (non-Javadoc)
-     * @see no.freecode.rtagent.Agent#sendMessage()
+     * @see no.freecode.rtnotifier.Agent#sendMessage()
      */
     public void sendMessage(Message message) {
     	try {

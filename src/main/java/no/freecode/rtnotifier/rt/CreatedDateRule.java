@@ -1,13 +1,13 @@
 /**
  * Copyright: 2009 FreeCode AS
- * Project: rtagent
+ * Project: rtnotifier
  * Created: Jul 5, 2009
  *
  * This file is free software; you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published
  * by the Free Software Foundation; version 3.
  */
-package no.freecode.rtagent.rt;
+package no.freecode.rtnotifier.rt;
 
 import java.util.Calendar;
 import java.util.Date;
@@ -130,7 +130,7 @@ public class CreatedDateRule extends AbstractRule {
 	}
 
 	/* (non-Javadoc)
-	 * @see no.freecode.rtagent.rt.AbstractRule#getMessage(no.freecode.rtagent.rt.Ticket)
+	 * @see no.freecode.rtnotifier.rt.AbstractRule#getMessage(no.freecode.rtnotifier.rt.Ticket)
 	 */
 	@Override
 	public String getMessage(Ticket ticket) {

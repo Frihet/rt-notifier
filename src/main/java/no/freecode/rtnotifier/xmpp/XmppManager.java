@@ -1,5 +1,5 @@
 /**
- *  Project: rtagent
+ *  Project: rtnotifier
  *  Created: Jul 4, 2009
  *  Copyright: 2009, Reidar Øksnevad
  *
@@ -7,7 +7,7 @@
  *  it under the terms of the GNU General Public License as published
  *  by the Free Software Foundation; version 3.
  */
-package no.freecode.rtagent.xmpp;
+package no.freecode.rtnotifier.xmpp;
 
 import javax.annotation.PostConstruct;
 import javax.annotation.PreDestroy;

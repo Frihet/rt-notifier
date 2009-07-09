@@ -1,13 +1,13 @@
 /**
  * Copyright: 2009 FreeCode AS
- * Project: rtagent
+ * Project: rtnotifier
  * Created: Jul 4, 2009
  *
  * This file is free software; you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published
  * by the Free Software Foundation; version 3.
  */
-package no.freecode.rtagent.xmpp;
+package no.freecode.rtnotifier.xmpp;
 
 import java.io.IOException;
 import java.io.UnsupportedEncodingException;
@@ -15,9 +15,9 @@ import java.net.URLEncoder;
 import java.util.List;
 import java.util.Set;
 
-import no.freecode.rtagent.rt.RtConnection;
-import no.freecode.rtagent.rt.Rule;
-import no.freecode.rtagent.rt.Ticket;
+import no.freecode.rtnotifier.rt.RtConnection;
+import no.freecode.rtnotifier.rt.Rule;
+import no.freecode.rtnotifier.rt.Ticket;
 
 import org.apache.commons.httpclient.HttpException;
 import org.apache.log4j.Logger;
@@ -75,7 +75,7 @@ public class TicketQueryAgent extends XmppChatAgent {
     }
 
     /* (non-Javadoc)
-     * @see no.freecode.rtagent.Agent#invoke()
+     * @see no.freecode.rtnotifier.Agent#invoke()
      */
     @Override
     public void invoke() {

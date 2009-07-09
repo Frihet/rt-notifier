@@ -4,10 +4,10 @@
  * by the Free Software Foundation; version 3.
  *
  * Copyright: 2009 FreeCode AS
- * Project: rtagent
+ * Project: rtnotifier
  * Created: Jul 4, 2009
  */
-package no.freecode.rtagent;
+package no.freecode.rtnotifier;
 
 
 /**

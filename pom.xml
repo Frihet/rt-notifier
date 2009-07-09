@@ -1,13 +1,12 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>no.freecode.rt</groupId>
-	<artifactId>rtagent</artifactId>
+	<groupId>no.freecode.rtnotifier</groupId>
+	<artifactId>rtnotifier</artifactId>
 	<packaging>jar</packaging>
-	<version>0.5.0-SNAPSHOT</version>
-	<name>rtagent</name>
-	<url>http://maven.apache.org</url>
-
+	<name>RT Notifier</name>
+        <version>0.5.0-SNAPSHOT</version>
+	<url>https://projects.freecode.no/projects/show/rtnotifier</url>
 
 	<!-- Standard properties. -->
 	<properties>
@@ -54,7 +53,7 @@
 							</descriptors>
 							<archive>
 								<manifest>
-									<mainClass>no.freecode.rtagent.App</mainClass>
+									<mainClass>no.freecode.rtnotifier.App</mainClass>
 								</manifest>
 							</archive>
 						</configuration>

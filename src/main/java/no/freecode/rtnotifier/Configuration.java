@@ -1,13 +1,13 @@
 /**
  * Copyright: 2009 FreeCode AS
- * Project: rtagent
+ * Project: rtnotifier
  * Created: Jul 6, 2009
  *
  * This file is free software; you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published
  * by the Free Software Foundation; version 3.
  */
-package no.freecode.rtagent;
+package no.freecode.rtnotifier;
 
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Required;

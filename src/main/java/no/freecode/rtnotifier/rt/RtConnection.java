@@ -1,5 +1,5 @@
 /**
- *  Project: rtagent
+ *  Project: rtnotifier
  *  Created: Jul 4, 2009
  *  Copyright: 2009, Reidar Øksnevad
  *
@@ -7,14 +7,14 @@
  *  it under the terms of the GNU General Public License as published
  *  by the Free Software Foundation; version 3.
  */
-package no.freecode.rtagent.rt;
+package no.freecode.rtnotifier.rt;
 
 import java.io.IOException;
 import java.util.List;
 
 import javax.annotation.PostConstruct;
 
-import no.freecode.rtagent.Configuration;
+import no.freecode.rtnotifier.Configuration;
 
 import org.apache.commons.httpclient.HttpClient;
 import org.apache.commons.httpclient.HttpException;
@@ -123,14 +123,14 @@ public class RtConnection {
     }
     
 	/* (non-Javadoc)
-	 * @see no.freecode.rtagent.Agent#getConfiguration()
+	 * @see no.freecode.rtnotifier.Agent#getConfiguration()
 	 */
 	public Configuration getConfiguration() {
 		return this.configuration;
 	}
 
 	/* (non-Javadoc)
-	 * @see no.freecode.rtagent.Agent#setConfiguration(no.freecode.rtagent.Configuration)
+	 * @see no.freecode.rtnotifier.Agent#setConfiguration(no.freecode.rtnotifier.Configuration)
 	 */
     @Autowired
 	public void setConfiguration(Configuration configuration) {

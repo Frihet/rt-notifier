@@ -8,8 +8,8 @@
     <bean class="no.freecode.rtnotifier.xmpp.TicketQueryAgent">
         <property name="alias" value="QA RT agent" />
         <property name="chatRoom" value="test@conference.jabber.freecodeint.com" />
-        <property name="query" value="Queue='fcnoos-div5' AND Owner='Nobody' AND (Status='new')" />
-<!--        <property name="query" value="Owner='Nobody' AND (Status='new')" />-->
+<!--        <property name="query" value="Queue='fcnoos-div5' AND Owner='Nobody' AND (Status='new')" />-->
+        <property name="query" value="Owner='Nobody' AND (Status='new')" />
 
         <property name="rules">
             <bean class="no.freecode.rtnotifier.rt.CreatedDateRule">
